@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Galeria de fotos</h1>
+        <button type="button">Nova imagem +</button>
+    </header>
+    <form>
+        <h2>Inserir nova imagem</h2>
+        <input type="url" id="endereço-imagem-nova" placeholder="URL da imagem " />
+        <button type="submit">Adicionar</button>
+        <button type="reset" id="botao-cancelar">Cancelar</button>
+    </form>
+    <ul>
+        <li>
+            <img src="./images/foto1.jpg" alt="pintura de um gato"/>
+            <div class="overlay-imgem-link">
+                <a href="./images/foto1.jpg" title="ver imagem em tamanho real" target="_blank">
+                    ver imagem em tamanho real
+                </a>
+            </div>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <img src="./images/foto2.jpg" alt="imagem de um passaro"/>
+            <div class="overlay-imgem-link">
+                <a href="./images/foto2.jpg" title="ver imagem em tamanho real" target="_blank">
+                    ver imagem em tamanho real
+                </a>
+            </div>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <img src="./images/foto3.jpg" alt="imagem de 3 cachorros "/>
+            <div class="overlay-imgem-link">
+                <a href="./images/foto3.jpg" title="ver imagem em tamanho real" target="_blank">
+                    ver imagem em tamanho real
+                </a>
+            </div>
+        </li>
+    </ul>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
